@@ -20,28 +20,6 @@ After completing an exploratory analysis for PyBer, a ride-sharing business, a d
 
 ### Summary DataFrame
 
-# PyBer_Analysis
-UT Data Boot Camp Module 5: PyBer with Matplotlib
-
-## Overview of the PyBer Data Analysis:
-After completing an exploratory analysis for PyBer, a ride-sharing business, a deeper dive into reviewing the data by city type was requested by the CEO.  The scope of work includes using Python, Pandas, and Matplotlib to create a summary DataFrame and a multi-line graph of the total weekly fares for each city type: Rural, Suburban, and Urban.  
-
-
-## PythonData Environment
-1. Anaconda version 1.7.2
-2. Conda version 4.9.0
-3. Jupyter-Notebook version 6.1.4
-4. ipykernal version 5.3.4
-5. Python version 3.7.7
-6. Pandas version 1.1.3
-7. Numpy version 1.19.1
-8. Matplotlib version 3.3.2
-9. GitBash version 2.28.0.windows.1
-
-## Results:
-
-### Summary DataFrame
-
 After merging two data sets and using the groupby() functions, the fare per ride and fare per driver averages were calculated resulting in the summary DataFrame by city type. 
 
 ![Pic 1](https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/Deliverable1.PNG)
