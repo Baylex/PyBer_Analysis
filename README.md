@@ -30,7 +30,7 @@ After merging two data sets and using the groupby() functions, the fare per ride
 
 ### Total Fare by City Type
 
-From the summary DataFrame, the date was pivoted into a new DataFrame and the data was grouped by weeks to show the total fares by city type.   
+From the summary DataFrame, the data was pivoted into a new DataFrame, and then grouped by weeks to show the total fares by city type.   
 
 ![Pic 2](https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
 
