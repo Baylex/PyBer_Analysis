@@ -1,7 +1,9 @@
 # PyBer_Analysis
 UT Data Boot Camp Module 5: PyBer with Matplotlib
 
-## Overview of the PyBer data Analysis:
+## Overview of the PyBer Data Analysis:
+After completing an exploratory analysis for PyBer, a ride-sharing business, a deeper dive into reviewing the data by city type was requested by the CEO.  The scope of work includes using Python, Pandas, and Matplotlb to create a summary DataFrame and a multi-line graph of the total weekly fares for each city type: Rural, Suburban, and Urban.  
+
 
 ## PythonData Environment
 1. Anaconda version 1.7.2
@@ -16,15 +18,53 @@ UT Data Boot Camp Module 5: PyBer with Matplotlib
 
 ## Results:
 
+### Summary DataFrame
 
-![Pic 1] (https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/Deliverable%201.PNG)
+# PyBer_Analysis
+UT Data Boot Camp Module 5: PyBer with Matplotlib
 
+## Overview of the PyBer Data Analysis:
+After completing an exploratory analysis for PyBer, a ride-sharing business, a deeper dive into reviewing the data by city type was requested by the CEO.  The scope of work includes using Python, Pandas, and Matplotlib to create a summary DataFrame and a multi-line graph of the total weekly fares for each city type: Rural, Suburban, and Urban.  
+
+
+## PythonData Environment
+1. Anaconda version 1.7.2
+2. Conda version 4.9.0
+3. Jupyter-Notebook version 6.1.4
+4. ipykernal version 5.3.4
+5. Python version 3.7.7
+6. Pandas version 1.1.3
+7. Numpy version 1.19.1
+8. Matplotlib version 3.3.2
+9. GitBash version 2.28.0.windows.1
+
+## Results:
+
+### Summary DataFrame
+
+After merging two data sets and using the groupby() functions, the fare per ride and fare per driver averages were calculated resulting in the summary DataFrame by city type. 
+
+![Pic 1](https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/Deliverable1.PNG)
+
+1. The Urban city type had more total drivers than total rides, which had a dramatic impact on the average fare per ride and average fare per driver.  The Urban drivers had the lowest average fare per ride and earned significantly less than the Rural drivers. 
+
+2. The Rural city type had the least number of total drivers giving way to having the highest average fare per driver even though the ratio of total rides to total drivers is equivalent to the Suburban city type.  
+
+### Total Fare by City Type
+
+From the summary DataFrame, the date was pivoted into a new DataFrame and the data was grouped by weeks to show the total fares by city type.   
 
 ![Pic 2](https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
+1. All three city types start to rise ton a peak at the end for February.  For the Urban city type, that oscillating peak lasts through April, while the other city types wane in the month of March.  
+
+2. The Rural city type increases again leading into the month of April.  The Suburban city type starts to peak again at the end of April, while the Rural city type drops off.   
 
 
-## Summary:
+## Summary and Recommendations:
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+1. The results of the summary DataFrame could be due to Urban city types being more compact, which collects a lower average fare per ride, while Rural city types are more spread out, which would collect a higher average fare per ride.  To test this theory, PyBer should work to include mileage distance data as part of the data collection process and analysis.
+
+2. Because there are more total drivers than total rides in the Urban city types, the Urban drivers may not have enough work to support themselves.  PyBer may want to consider investing advertising dollars in the Urban city types to increase the total rides or risk losing Urban drivers. 
+
+3. If PyBer were to invest into advertising dollars in the Urban city type, the next question is when would ads be the most effective?  After reviewing the Total Fare by City Tpye graph, the end of February kicks off the increase in total fares and would be a good time to launch an advertising campaign, which would also strategically help the other two city types. 
