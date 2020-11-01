@@ -34,7 +34,7 @@ From the summary DataFrame, the data was pivoted into a new DataFrame, and then 
 
 ![Pic 2](https://github.com/Baylex/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
 
-1. All three city types start to rise ton a peak at the end for February.  For the Urban city type, that oscillating peak lasts through April, while the other city types wane in the month of March.  
+1. All three city types start to rise to a peak at the end for February.  For the Urban city type, that oscillating peak lasts through April, while the other city types wane in the month of March.  
 
 2. The Rural city type increases again leading into the month of April.  The Suburban city type starts to peak again at the end of April, while the Rural city type drops off.   
 
