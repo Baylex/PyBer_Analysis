@@ -1,9 +1,14 @@
 # PyBer_Analysis
-UT Data Boot Camp Module 5: PyBer with Matplotlib
+PyBer with Matplotlib
 
-## Overview of the PyBer Data Analysis:
+## Purpose:
+1. Create line, bar, scatter, bubble, pie, and box-and-whisker plots using Matplotlib.
+2. Add and modify features of Matplotlib charts.
+3. Add error bars to line and bar charts.
+4. Determine mean, median, and mode using Pandas, NumPy, and SciPy statistics.
+
+## Overview:
 After completing an exploratory analysis for PyBer, a ride-sharing business, a deeper dive into reviewing the data by city type was requested by the CEO.  The scope of work includes using Python, Pandas, and Matplotlb to create a summary DataFrame and a multi-line graph of the total weekly fares for each city type: Rural, Suburban, and Urban.  
-
 
 ## PythonData Environment
 1. Anaconda version 1.7.2
